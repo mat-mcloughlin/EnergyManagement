@@ -4,17 +4,11 @@ namespace Trading
 {
     public class DealTicket
     {
-        public DealTicket(Guid id, Price price, int amount, string unit)
+        public DealTicket(Guid id, Price price, Amount amount)
         {
-            if (amount <= 0 || string.IsNullOrWhiteSpace(unit))
-            {
-                throw new Exception("Deal ticket must have an amount");
-            }
-
             Id = id;
             Price = price;
             Amount = amount;
-            Unit = unit;
             Status = DealTicketStatus.Open;
         }
 
@@ -37,18 +31,12 @@ namespace Trading
             Status = DealTicketStatus.Cancelled;
         }
 
-        public void AdjustCostings(Price price, int amount, string unit)
+        public void AdjustCostings(Price price, Amount amount)
         {
             CheckDealticketIsNotExecuted();
-
-            if (amount <= 0 || string.IsNullOrWhiteSpace(unit))
-            {
-                throw new Exception("Deal ticket must have an amount");
-            }
-
+            
             Price = price;
             Amount = amount;
-            Unit = unit;
         }
 
         void CheckDealticketIsNotExecuted()
@@ -63,9 +51,8 @@ namespace Trading
 
         public Price Price { get; private set; }
 
-        public int Amount { get; private set; }
+        public Amount Amount { get; private set; }
 
-        public string Unit { get; private set; }
 
         public DealTicketStatus Status { get; private set; }
     }

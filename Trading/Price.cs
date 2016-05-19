@@ -6,12 +6,13 @@ namespace Trading
     {
         public Price(decimal value, string currency)
         {
-            Value = value;
-            Currency = currency;
             if (value <= 0 || string.IsNullOrWhiteSpace(currency))
             {
-                throw new Exception("Deal ticket must have a price");
+                throw new Exception("A Price must have a value and currency");
             }
+
+            Currency = currency;
+            Value = value;
         }
 
         public decimal Value { get; private set; }
