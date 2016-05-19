@@ -45,6 +45,7 @@
     <Compile Include="DealTicketRepository.cs" />
     <Compile Include="DealticketService.cs" />
     <Compile Include="DealTicketStatus.cs" />
+    <Compile Include="Price.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy.cs" />
   </ItemGroup>
