@@ -31,30 +31,21 @@ namespace Trading
 
         public void Reopen()
         {
-            if (Status != DealTicketStatus.Executed)
-            {
-                throw new Exception("Deal ticket cannot be modified once it has been executed");
-            }
-            
+            CheckDealticketIsNotExecuted();
+
             Status = DealTicketStatus.Open;
         }
 
         public void Cancel()
         {
-            if (Status != DealTicketStatus.Executed)
-            {
-                throw new Exception("Deal ticket cannot be modified once it has been executed");
-            }
+            CheckDealticketIsNotExecuted();
 
             Status = DealTicketStatus.Cancelled;
         }
 
         public void AdjustCostings(decimal price, string currency, int amount, string unit)
         {
-            if (Status != DealTicketStatus.Executed)
-            {
-                throw new Exception("Deal ticket cannot be modified once it has been executed");
-            }
+            CheckDealticketIsNotExecuted();
 
             if (price <= 0 || string.IsNullOrWhiteSpace(currency))
             {
@@ -72,16 +63,24 @@ namespace Trading
             Unit = unit;
         }
 
-        public Guid Id { get; set; }
+        void CheckDealticketIsNotExecuted()
+        {
+            if (Status != DealTicketStatus.Executed)
+            {
+                throw new Exception("Deal ticket cannot be modified once it has been executed");
+            }
+        }
 
-        public decimal Price { get; set; }
+        public Guid Id { get; private set; }
 
-        public string Currency { get; set; }
+        public decimal Price { get; private set; }
 
-        public int Amount { get; set; }
+        public string Currency { get; private set; }
 
-        public string Unit { get; set; }
+        public int Amount { get; private set; }
 
-        public DealTicketStatus Status { get; set; }
+        public string Unit { get; private set; }
+
+        public DealTicketStatus Status { get; private set; }
     }
 }
