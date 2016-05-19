@@ -9,8 +9,6 @@ namespace Trading
 
         public Guid CreateDealTicket(DealTicket dealTicket)
         {
-            ValidateDealticket(dealTicket);
-
             return _repository.Save(dealTicket);
         }
 
