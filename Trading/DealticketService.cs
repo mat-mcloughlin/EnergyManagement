@@ -6,11 +6,6 @@ namespace Trading
     {
         DealTicketRepository _repository;
 
-        public Guid CreateDealTicket(DealTicket dealTicket)
-        {
-            return _repository.Save(dealTicket);
-        }
-
         public void UpdateDealTicket(DealTicket dealTicket)
         {
             var currentDealTicket = _repository.GetDealTicket(dealTicket.Id);

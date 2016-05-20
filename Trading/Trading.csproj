@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Aggreement.cs" />
     <Compile Include="Amount.cs" />
+    <Compile Include="CreateDealTicket.cs" />
+    <Compile Include="CreateDealticketHandler.cs" />
     <Compile Include="DealTicket.cs" />
     <Compile Include="DealTicketRepository.cs" />
     <Compile Include="DealticketService.cs" />
