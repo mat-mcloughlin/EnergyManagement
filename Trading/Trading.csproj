@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Aggreement.cs" />
     <Compile Include="Amount.cs" />
+    <Compile Include="ExecuteDealTicket.cs" />
     <Compile Include="CreateDealTicket.cs" />
+    <Compile Include="ExecuteDealTicketHandler.cs" />
     <Compile Include="CreateDealticketHandler.cs" />
     <Compile Include="DealTicket.cs" />
     <Compile Include="DealTicketRepository.cs" />
