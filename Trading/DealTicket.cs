@@ -22,6 +22,11 @@ namespace Trading
             Unit = unit;
         }
 
+        public void Execute()
+        {
+            Status = DealTicketStatus.Executed;
+        }
+
         public Guid Id { get; set; }
 
         public decimal Price { get; set; }

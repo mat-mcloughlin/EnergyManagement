@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53472ebb-5ea6-4b60-87b5-9942ff635759" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runner/Program.cs" afterPath="$PROJECT_DIR$/Runner/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trading/DealTicket.cs" afterPath="$PROJECT_DIR$/Trading/DealTicket.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trading/DealticketService.cs" afterPath="$PROJECT_DIR$/Trading/DealticketService.cs" />
     </list>
     <ignored path="EnergyManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,15 +22,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DealTicket.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DealTicket.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trading/DealTicket.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
-                <marker date="1463934831000" expanded="true" signature="32:889" ph="{...}" />
-                <marker date="1463934831000" expanded="true" signature="62:887" ph="{...}" />
-                <marker date="1463934831000" expanded="true" signature="151:616" ph="{...}" />
+                <marker date="1463935075000" expanded="true" signature="32:988" ph="{...}" />
+                <marker date="1463935075000" expanded="true" signature="62:986" ph="{...}" />
+                <marker date="1463935075000" expanded="true" signature="151:616" ph="{...}" />
+                <marker date="1463935075000" expanded="true" signature="647:715" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -43,13 +42,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <marker date="1463934728000" expanded="true" signature="32:1775" ph="{...}" />
-                <marker date="1463934728000" expanded="true" signature="69:1773" ph="{...}" />
-                <marker date="1463934728000" expanded="true" signature="185:243" ph="{...}" />
-                <marker date="1463934728000" expanded="true" signature="304:375" ph="{...}" />
-                <marker date="1463934728000" expanded="true" signature="436:1767" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Runner/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="560">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <marker date="1463934967000" expanded="true" signature="6:13" ph="..." />
                 <marker date="1463934967000" expanded="true" signature="6:56" ph="..." />
@@ -152,8 +145,8 @@
         <option value="$PROJECT_DIR$/Trading/StaticRepository.cs" />
         <option value="$PROJECT_DIR$/Runner/Runner.csproj" />
         <option value="$PROJECT_DIR$/Trading/DealticketService.cs" />
-        <option value="$PROJECT_DIR$/Trading/DealTicket.cs" />
         <option value="$PROJECT_DIR$/Runner/Program.cs" />
+        <option value="$PROJECT_DIR$/Trading/DealTicket.cs" />
       </list>
     </option>
   </component>
@@ -317,7 +310,7 @@
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4957265" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934684" sideWeight="0.50213677" order="7" side_tool="false" content_ui="tabs" />
@@ -416,38 +409,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1463934728000" expanded="true" signature="32:1775" ph="{...}" />
-            <marker date="1463934728000" expanded="true" signature="69:1773" ph="{...}" />
-            <marker date="1463934728000" expanded="true" signature="185:243" ph="{...}" />
-            <marker date="1463934728000" expanded="true" signature="304:375" ph="{...}" />
-            <marker date="1463934728000" expanded="true" signature="436:1767" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trading/DealTicket.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1463934831000" expanded="true" signature="32:889" ph="{...}" />
-            <marker date="1463934831000" expanded="true" signature="62:887" ph="{...}" />
-            <marker date="1463934831000" expanded="true" signature="151:616" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Runner/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="560">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <marker date="1463934967000" expanded="true" signature="6:13" ph="..." />
             <marker date="1463934967000" expanded="true" signature="6:56" ph="..." />
             <marker date="1463934967000" expanded="true" signature="74:758" ph="{...}" />
             <marker date="1463934967000" expanded="true" signature="94:756" ph="{...}" />
             <marker date="1463934967000" expanded="true" signature="140:750" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trading/DealTicket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <marker date="1463935075000" expanded="true" signature="32:988" ph="{...}" />
+            <marker date="1463935075000" expanded="true" signature="62:986" ph="{...}" />
+            <marker date="1463935075000" expanded="true" signature="151:616" ph="{...}" />
+            <marker date="1463935075000" expanded="true" signature="647:715" ph="{...}" />
           </folding>
         </state>
       </provider>
