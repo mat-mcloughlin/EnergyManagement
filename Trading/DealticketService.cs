@@ -1,11 +1,15 @@
 ﻿using System;
-using Infrastructure;
 
 namespace Trading
 {
     public class DealticketService
     {
-        DealTicketRepository _repository;
+        readonly StaticRepository _repository;
+
+        public DealticketService(StaticRepository repository)
+        {
+            _repository = repository;
+        }
 
         public Guid CreateDealTicket(DealTicket dealTicket)
         {
@@ -43,6 +47,16 @@ namespace Trading
             }
             else
             {
+                if (dealTicket.Price <= 0 || string.IsNullOrWhiteSpace(dealTicket.Currency))
+                {
+                    throw new Exception("Deal ticket must have a price");
+                }
+
+                if (dealTicket.Amount <= 0 || string.IsNullOrWhiteSpace(dealTicket.Unit))
+                {
+                    throw new Exception("Deal ticket must have an amount");
+                }
+
                 currentDealTicket.Status = dealTicket.Status;
                 currentDealTicket.Amount = dealTicket.Amount;
                 currentDealTicket.Currency = dealTicket.Currency;
