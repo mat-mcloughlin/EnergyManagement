@@ -10,7 +10,6 @@ namespace Trading
 
         public Guid Save(DealTicket dealTicket)
         {
-            dealTicket.Id = Guid.NewGuid();
             DealTickets.Add(dealTicket);
             return dealTicket.Id;
         }

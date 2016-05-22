@@ -11,7 +11,7 @@ namespace Runner
             var staticRepository = new StaticRepository();
             var dealTicketService = new DealticketService(staticRepository);
 
-            var dealTicket = new DealTicket(10, "GBP", 10000, "kwh");
+            var dealTicket = new DealTicket(Guid.NewGuid(), 10, "GBP", 10000, "kwh");
 
             dealTicket.Execute();
 
