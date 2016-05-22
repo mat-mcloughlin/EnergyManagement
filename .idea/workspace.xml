@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53472ebb-5ea6-4b60-87b5-9942ff635759" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runner/Program.cs" afterPath="$PROJECT_DIR$/Runner/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trading/DealTicket.cs" afterPath="$PROJECT_DIR$/Trading/DealTicket.cs" />
     </list>
     <ignored path="EnergyManagement.iws" />
@@ -22,16 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DealTicket.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DealTicket.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trading/DealTicket.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="160">
+              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding>
-                <marker date="1463935075000" expanded="true" signature="32:988" ph="{...}" />
-                <marker date="1463935075000" expanded="true" signature="62:986" ph="{...}" />
-                <marker date="1463935075000" expanded="true" signature="151:616" ph="{...}" />
-                <marker date="1463935075000" expanded="true" signature="647:715" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="32:2117" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="62:2115" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="151:616" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="647:715" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="745:854" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="884:998" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="1091:1601" ph="{...}" />
+                <marker date="1463935229000" expanded="true" signature="1646:1844" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,17 +74,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Runner/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
-                <marker date="1463934967000" expanded="true" signature="6:13" ph="..." />
-                <marker date="1463934967000" expanded="true" signature="6:56" ph="..." />
-                <marker date="1463934967000" expanded="true" signature="74:758" ph="{...}" />
-                <marker date="1463934967000" expanded="true" signature="94:756" ph="{...}" />
-                <marker date="1463934967000" expanded="true" signature="140:750" ph="{...}" />
+                <marker date="1463935255000" expanded="true" signature="6:13" ph="..." />
+                <marker date="1463935255000" expanded="true" signature="6:56" ph="..." />
+                <marker date="1463935255000" expanded="true" signature="74:793" ph="{...}" />
+                <marker date="1463935255000" expanded="true" signature="94:791" ph="{...}" />
+                <marker date="1463935255000" expanded="true" signature="140:785" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -145,8 +150,8 @@
         <option value="$PROJECT_DIR$/Trading/StaticRepository.cs" />
         <option value="$PROJECT_DIR$/Runner/Runner.csproj" />
         <option value="$PROJECT_DIR$/Trading/DealticketService.cs" />
-        <option value="$PROJECT_DIR$/Runner/Program.cs" />
         <option value="$PROJECT_DIR$/Trading/DealTicket.cs" />
+        <option value="$PROJECT_DIR$/Runner/Program.cs" />
       </list>
     </option>
   </component>
@@ -413,29 +418,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runner/Program.cs">
+    <entry file="file://$PROJECT_DIR$/Trading/DealTicket.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="160">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding>
-            <marker date="1463934967000" expanded="true" signature="6:13" ph="..." />
-            <marker date="1463934967000" expanded="true" signature="6:56" ph="..." />
-            <marker date="1463934967000" expanded="true" signature="74:758" ph="{...}" />
-            <marker date="1463934967000" expanded="true" signature="94:756" ph="{...}" />
-            <marker date="1463934967000" expanded="true" signature="140:750" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="32:2117" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="62:2115" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="151:616" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="647:715" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="745:854" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="884:998" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="1091:1601" ph="{...}" />
+            <marker date="1463935229000" expanded="true" signature="1646:1844" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trading/DealTicket.cs">
+    <entry file="file://$PROJECT_DIR$/Runner/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="300">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <marker date="1463935075000" expanded="true" signature="32:988" ph="{...}" />
-            <marker date="1463935075000" expanded="true" signature="62:986" ph="{...}" />
-            <marker date="1463935075000" expanded="true" signature="151:616" ph="{...}" />
-            <marker date="1463935075000" expanded="true" signature="647:715" ph="{...}" />
+            <marker date="1463935255000" expanded="true" signature="6:13" ph="..." />
+            <marker date="1463935255000" expanded="true" signature="6:56" ph="..." />
+            <marker date="1463935255000" expanded="true" signature="74:793" ph="{...}" />
+            <marker date="1463935255000" expanded="true" signature="94:791" ph="{...}" />
+            <marker date="1463935255000" expanded="true" signature="140:785" ph="{...}" />
           </folding>
         </state>
       </provider>

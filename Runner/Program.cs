@@ -13,6 +13,8 @@ namespace Runner
 
             var dealTicket = new DealTicket(10, "GBP", 10000, "kwh");
 
+            dealTicket.Execute();
+
             var id = dealTicketService.CreateDealTicket(dealTicket);
 
             var retrievedDealTicket = staticRepository.GetDealTicket(id);
