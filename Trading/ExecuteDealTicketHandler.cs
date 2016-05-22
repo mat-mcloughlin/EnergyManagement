@@ -1,7 +1,9 @@
 ﻿using Infrastructure;
+using Messages;
 
 namespace Trading
 {
+    class ExecuteDealTicketHandler : IHandler<ExecuteDealTicket>
     {
         readonly DealTicketRepository _repository;
 
@@ -10,6 +12,7 @@ namespace Trading
             _repository = repository;
         }
 
+        public void Handle(ExecuteDealTicket message)
         {
             var dealTicket = _repository.GetDealTicket(message.DealTicketId);
             dealTicket.Execute();

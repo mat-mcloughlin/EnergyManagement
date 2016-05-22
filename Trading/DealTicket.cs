@@ -1,8 +1,10 @@
 ﻿using System;
+using Infrastructure;
+using Messages;
 
 namespace Trading
 {
-    public class DealTicket
+    public class DealTicket : Entity
     {
         public DealTicket(Guid id, Price price, Amount amount)
         {
@@ -15,6 +17,7 @@ namespace Trading
         public void Execute()
         {
             Status = DealTicketStatus.Executed;
+            Events.Add(new DealTicketExecuted(Id, Price.Currency, Price.Value, Amount.Unit, Amount.Volume));
         }
 
         public void Reopen()
@@ -34,7 +37,7 @@ namespace Trading
         public void AdjustCostings(Price price, Amount amount)
         {
             CheckDealticketIsNotExecuted();
-            
+
             Price = price;
             Amount = amount;
         }

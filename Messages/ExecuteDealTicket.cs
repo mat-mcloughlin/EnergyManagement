@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Trading
+namespace Messages
 {
     public class ExecuteDealTicket
     {

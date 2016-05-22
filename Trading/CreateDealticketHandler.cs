@@ -1,4 +1,5 @@
 ﻿using Infrastructure;
+using Messages;
 
 namespace Trading
 {

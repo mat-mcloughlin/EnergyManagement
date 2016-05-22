@@ -1,12 +1,28 @@
 using System;
+using MemBus;
 
 namespace Trading
 {
     public class DealTicketRepository
     {
-        public Guid Save(object dealTicket)
+        private readonly IBus _bus;
+
+        public DealTicketRepository(IBus bus)
         {
-            throw new System.NotImplementedException();
+            _bus = bus;
+        }
+
+        public Guid Save(DealTicket dealTicket)
+        {
+            // Save the data
+
+            // publish the events
+            foreach (var @event in dealTicket.Events)
+            {
+                _bus.Publish(@event);
+            }
+
+            return Guid.NewGuid();
         }
 
         public DealTicket GetDealTicket(Guid id)
