@@ -13,20 +13,7 @@ namespace Trading
 
         public Guid CreateDealTicket(DealTicket dealTicket)
         {
-            if (dealTicket.Status != DealTicketStatus.Open)
-            {
-                throw new Exception("Deal ticket must be created with a status of created.");
-            }
 
-            if (dealTicket.Price <= 0 || string.IsNullOrWhiteSpace(dealTicket.Currency))
-            {
-                throw new Exception("Deal ticket must have a price");
-            }
-
-            if (dealTicket.Amount <= 0 || string.IsNullOrWhiteSpace(dealTicket.Unit))
-            {
-                throw new Exception("Deal ticket must have an amount");
-            }
 
             return _repository.Save(dealTicket);
         }

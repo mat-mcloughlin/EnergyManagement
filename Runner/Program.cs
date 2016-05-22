@@ -11,14 +11,7 @@ namespace Runner
             var staticRepository = new StaticRepository();
             var dealTicketService = new DealticketService(staticRepository);
 
-            var dealTicket = new DealTicket
-            {
-                Amount = 10000,
-                Currency = "GBP",
-                Price = 10,
-                Status = DealTicketStatus.Open,
-                Unit = "kwh"
-            };
+            var dealTicket = new DealTicket(10, "GBP", 10000, "kwh");
 
             var id = dealTicketService.CreateDealTicket(dealTicket);
 
